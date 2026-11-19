@@ -32,7 +32,7 @@ This project is a git-ssh-wrapper, which will provide ability that multiple git 
 - `git-ssh-wrapper.py`: generated python source code, one of project target.
 - `git-ssh-wrapper.exe`: pyinstaller packed from generated python source code, the other project target.
 - `private_id-example`: example ssh private key, it shall be provided in advance and it is not generated. This file itself should not be used in production environment. This filename will be full manually named in production environment.
-- `config-example.user.name`: example SSH config for `example user.name`, it shall be provided in advance and it is not AI-model generated. After code generation, report a `file not found error` if this file doesn't exist when running the code. This file itself should not be used in production environment. The filename will follow a file name regularation.
+- `config-example.user.name`: example SSH config for `example user.name`, it shall be provided in advance and it is not AI-model generated. After code generation, report a `file not found error` if this file doesn't exist when running the code. This file itself should not be used in production environment.
 
 ### Runtime Architecture
 
